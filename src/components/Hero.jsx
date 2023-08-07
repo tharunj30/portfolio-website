@@ -1,7 +1,6 @@
 import React from 'react';
 import {motion} from 'framer-motion';
 import {styles} from '../styles'
-import { EarthCanvas } from "./canvas";
 const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto">
@@ -23,7 +22,6 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <EarthCanvas/>
      
       <div className="absolute xs:bottom-50 bottom-42 w-full flex justify-center items-center">
         <a href="#about">
